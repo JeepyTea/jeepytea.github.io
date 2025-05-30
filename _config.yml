@@ -1,0 +1,30 @@
+# Site settings
+title: My Beautiful Blog
+description: A stunning GitHub Pages blog
+author: Your Name
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Social media
+twitter_username: 
+github_username:  
+
+# Collections
+collections:
+  - projects
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      comments: true
