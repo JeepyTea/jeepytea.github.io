@@ -10,4 +10,4 @@ I'd love to hear from you! Whether you have a question, feedback, or just want t
 ## Contact Information
 
 - **Twitter/X**: [@JeepyTea](https://twitter.com/JeepyTea)
-- **GitHub**: [yourusername](https://github.com/JeepyTea)
+- **GitHub**: [JeepyTeaMaker](https://github.com/JeepyTeaMaker)

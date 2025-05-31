@@ -5,8 +5,6 @@ title: Blog
 
 # Blog
 
-Welcome to my blog! Here you'll find all my posts organized by date.
-
 {% for post in site.posts %}
 ## [{{ post.title }}]({{ post.url | relative_url }})
 
