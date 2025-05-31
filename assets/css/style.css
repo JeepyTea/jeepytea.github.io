@@ -180,6 +180,12 @@ hr {
   color: var(--light-text);
 }
 
+.post-content ul {
+  list-style-position: inside;
+  padding-left: 1.2em; /* Adjust this value to align with text */
+  margin-left: 0; /* Remove default browser margin */
+}
+
 .post-content ul ul {
   margin-left: 2rem; /* Adjust this value as needed */
 }
