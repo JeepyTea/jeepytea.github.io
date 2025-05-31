@@ -5,7 +5,7 @@ date: 2025-05-30
 categories: [general, introduction]
 ---
 
-# Welcome to My Beautiful Blog!
+# JeepyTea's Blog
 
 This is my first post on my new GitHub Pages blog. I'm excited to share my thoughts, projects, and ideas with you.
 
