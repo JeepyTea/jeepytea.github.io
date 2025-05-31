@@ -115,45 +115,35 @@ language parser and used to update the human-readable Mamba language
 guide. The language name is randomized as well. Here's an excerpt of the
 language describing functions and flow control.
 
-+----------------------------------------------------------------------+
-| \#\# Possions programming language                                   |
-|                                                                      |
-| Possions is a simple dynamic typed, programming language             |
-|                                                                      |
-| \...                                                                 |
-|                                                                      |
-| \#\#\#\# Functions \#\#\#\#                                          |
-|                                                                      |
-| functions are declared via the following grammar                     |
-|                                                                      |
-|     thresyncess func\_name( \[\<arguments\>,\] ){                    |
-|                                                                      |
-|         \< statements \>                                             |
-|                                                                      |
-|     }                                                                |
-|                                                                      |
-|     thresyncess random(){                                            |
-|                                                                      |
-|         naritrannument 4;                                            |
-|                                                                      |
-|     }                                                                |
-|                                                                      |
-| return value is specified with the \`naritrannument\` keyword which, |
-| as expected, immediately halts function execution upon being called. |
-| Functions can have their private functions which are inaccessible to |
-| the outer scope.                                                     |
-|                                                                      |
-| \#\#\#\# Flow control \#\#\#\#                                       |
-|                                                                      |
-| Possions supports \`ripted\` statements sohanidd flow control via    |
-| the following syntax                                                 |
-|                                                                      |
-|     ripted \< expression \> {                                        |
-|                                                                      |
-|         \< statements \>                                             |
-|                                                                      |
-|     }                                                                |
-+----------------------------------------------------------------------+
+```
+## Possions programming language
+Possions is a simple dynamic typed, programming language
+...
+#### Functions ####
+
+functions are declared via the following grammar
+
+    thresyncess func_name( [<arguments>,] ){
+        < statements >
+    }
+
+    thresyncess random(){
+        naritrannument 4;
+    }
+
+return value is specified with the `naritrannument` keyword which, as expected, 
+immediately halts function execution upon being called. Functions can have 
+their private functions which are inaccessible to the outer scope.
+
+#### Flow control ####
+
+Possions supports `ripted` statements sohanidd flow control via the following syntax
+
+    ripted < expression > {
+        < statements >
+    }
+
+```
 
 Mamba also includes a number of other useful features, such as the
 ability to read from standard input and write to standard output,
@@ -182,17 +172,17 @@ difficulty.
 
 Here is one example problem:
 
-+----------------------------------------------------------------------+
-| Write a program in Possions that does the following:                 |
-|                                                                      |
-| Reads a string from standard input that contains a series of decimal |
-| digits.                                                              |
-|                                                                      |
-| Prints the digits of that string that are odd.                       |
-|                                                                      |
-| Do not output anything other than those digits, including prompts or |
-| delimiters.                                                          |
-+----------------------------------------------------------------------+
+```
+ Write a program in Possions that does the following:                 
+                                                                      
+ Reads a string from standard input that contains a series of decimal 
+ digits.                                                              
+                                                                      
+ Prints the digits of that string that are odd.                       
+                                                                      
+ Do not output anything other than those digits, including prompts or 
+ delimiters.                                                          
+```
 
 The problem description is concatenated to the end of the language
 description, and the whole request is sent to the LLM system.
@@ -272,11 +262,7 @@ Future Enhancements
 -------------------
 
 -   Performance
-
-```{=html}
-<!-- -->
-```
--   -   Finer grained parallelism in running the test cases
+    -   Finer grained parallelism in running the test cases
     -   Finding the fastest inference providers
 
 -   Adding new and interesting models to the test
