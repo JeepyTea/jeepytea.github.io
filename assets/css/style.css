@@ -180,6 +180,10 @@ hr {
   color: var(--light-text);
 }
 
+.post-content ul ul {
+  margin-left: 2rem; /* Adjust this value as needed */
+}
+
 .post-content pre {
   background-color: var(--light-gray);
   padding: 1rem;
