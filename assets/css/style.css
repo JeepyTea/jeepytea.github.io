@@ -111,8 +111,8 @@ a:hover {
 }
 
 /* Posts */
-.post {
-  margin-bottom: 4rem;
+.post, .post-preview {
+  margin-bottom: 2.5rem;
 }
 
 .post-header {
@@ -128,6 +128,38 @@ a:hover {
   color: var(--light-text);
   font-size: 0.9rem;
   margin-bottom: 1rem;
+}
+
+.post-preview h2 {
+  margin-bottom: 0.5rem;
+}
+
+.post-excerpt {
+  margin: 1rem 0;
+}
+
+.read-more {
+  display: inline-block;
+  font-weight: 600;
+  margin-top: 0.5rem;
+}
+
+hr {
+  margin: 2rem 0;
+  border: 0;
+  border-top: 1px solid var(--border-color);
+}
+
+.about-section {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 2px solid var(--primary-color);
+}
+
+.about-link {
+  display: inline-block;
+  margin-top: 0.5rem;
+  font-weight: 600;
 }
 
 .post-content {
