@@ -20,11 +20,9 @@ title: Home
     {% endif %}
   </div>
   
-  <div class="post-excerpt">
-    {{ post.excerpt }}
+  <div class="post-content">
+    {{ post.content }}
   </div>
-  
-  <a href="{{ post.url | relative_url }}" class="read-more">Read more &raquo;</a>
 </article>
 
 <hr>
