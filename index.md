@@ -3,8 +3,6 @@ layout: default
 title: Home
 ---
 
-# Latest Posts
-
 {% for post in site.posts limit:5 %}
 <article class="post-preview">
   <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
