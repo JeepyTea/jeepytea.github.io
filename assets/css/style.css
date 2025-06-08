@@ -182,7 +182,15 @@ hr {
 
 .post-content ul {
   list-style-position: outside;
-  /* Remove padding-left and margin-left to use default browser indentation */
+  padding-left: 20px;
+  padding-bottom: 12pt;
+}
+
+
+.post-content ol {
+  list-style-position: outside;
+  padding-left: 20px;
+  padding-bottom: 12pt;
 }
 
 .post-content ul ul {

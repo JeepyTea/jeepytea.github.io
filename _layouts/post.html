@@ -31,8 +31,13 @@ layout: default
     {% if page.comments %}
     <div class="post-comments">
         <h2>Comments</h2>
-        <!-- You can add a commenting system here like Disqus or GitHub Issues -->
-        <p>Comments are coming soon!</p>
+            <script src="https://utteranc.es/client.js"
+                    repo="JeepyTea/jeepytea.github.io"
+                    issue-term="pathname"
+                    theme="github-light"
+                    crossorigin="anonymous"
+                    async>
+            </script>
     </div>
     {% endif %}
 
