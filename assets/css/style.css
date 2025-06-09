@@ -208,7 +208,6 @@ hr {
 .post-content code {
   font-family: monospace;
   background-color: var(--light-gray);
-  padding: 0.2rem 0.4rem;
   border-radius: 3px;
 }
 
